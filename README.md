@@ -1,4 +1,4 @@
-# robosys_2021_ros
+# robosys_2021
 
 In this package, the professor gives credits to the student according to the amount paid by the student. The number of credits that a student receives is determined by the amount paid by the student and a random number.
 
@@ -40,11 +40,11 @@ roscore
 ```
 Starting publisher, open another terminal and enter this command(```terminal1```):
 ```
-rosrun robosys_2021_ros stu
+rosrun robosys_2021 stu
 ```
 Starting subscriber, open another terminal and enter this command(```terminal2```):
 ```
-rosrun robosys_2021_ros pro
+rosrun robosys_2021 pro
 ```
 In ```terminal1```, Enter the amount as shown below. 
 
@@ -71,4 +71,4 @@ You can not obtain credits if you pay money to your professors.
 
 # License
 
-"robosys_2021_ros" is under [BSD 3-Clause "New" or "Revised" License](https://en.wikipedia.org/wiki/BSD_licenses).
+"robosys_2021" is under [BSD 3-Clause "New" or "Revised" License](https://en.wikipedia.org/wiki/BSD_licenses).
